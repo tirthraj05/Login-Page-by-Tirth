@@ -10,8 +10,6 @@ document.addEventListener("DOMContentLoaded", function() {
         // Check if the username and password are correct (static credentials for demo)
         if ((username === "Tirth" && password === "Tirth") ||
             (username === "Raj" && password === "Raj") ||
-            (username === "Username" && password === "Password") ||
-            (username === "Username:" && password === "Password:") ||
             (username === "Gajera" && password === "Gajera")) {
             alert("Login successful!");
             // Redirect to a different page or perform other actions for successful login
